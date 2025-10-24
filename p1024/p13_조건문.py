@@ -44,10 +44,15 @@ jumin = "990201-2111111"
 
 # print(int(jumin[2:4]), now.month)
 
-if int(jumin[2:4]) == now.month:
-    print("이벤트 대상 입니다!")
-else:
-    print("이벤트 대상이 아닙니다!")
+# if int(jumin[2:4]) == now.month:
+#     print("이벤트 대상 입니다!")
+# else:
+#     print("이벤트 대상이 아닙니다!")
+
+str1 = "abcdefg"
+
+print(str1[1:6:2]) #시작번호:끝번호:스탭
+print(str1[5:2:-1])
 
 
 
