@@ -8,3 +8,5 @@ num3 = int(input("수학 점수를 입력."))
 
 print("합계=",num+num2+num3)
 print("평균=",(num+num2+num3)/3)
+
+
