@@ -71,6 +71,9 @@ coin = 1597000
 
 
 for a in [50000, 10000, 5000, 1000]:
+    
+    print(type(a))
+    
     m1 = coin // a
     m2 = coin % a
     
