@@ -46,7 +46,8 @@ print("-"*30)
 # print("-"*50)
 # print("국어\t영어\t수학\t합계\t평균")
 # print("-"*50)
-# print("%d\t%d\t%d\t%d\t%.2f" % (kor, eng, math, total, avg))
+# # print("%d\t%d\t%d\t%d\t%.2f" % (kor, eng, math, total, avg))
+# print("{0:d}\t{1:d}\t{2:d}\t{3:d}\t{4:.2f}".format(kor, eng, math, total, avg))
 
 
 
@@ -68,18 +69,57 @@ print("-"*30)
 
 # print(fruit_items[0][0])
 
+# a = [1,2,3,4,5]
+# s = [i**2 for i in a if i > 3]
+# print(s, 'aa', "bb", sep = "/")
+
+a = 0.123456789012345679
+
+# print("{0:.2f}\t{0:5f}".format(a))
+
+# n = input("name : ")
+# print("당신의 이름은 {} 입니다".format(n))
 
 
-a = [1,2,3,4,5]
-s = [i**2 for i in a if i > 3]
-print(s, 'aa', "bb", sep = "/")
+import datetime
+
+now = datetime.datetime.now()
+
+# jumin = "070101-1111111"
+
+# if int(jumin[7]) < 3:
+#     jumin2 = "19"+jumin[0:2]
+#     jumin2 = 1900+int(jumin[0:2])
+# else:
+#     jumin2 = "20"+jumin[0:2]
+#     jumin2 = 2000+int(jumin[0:2])
+    
+# age = now.year - int(jumin2)
+
+# print(age)
 
 
+# "071001-1111111"
+
+jumin = input("주민번호를 입력 : ")
+
+if jumin[7] == "1" or jumin[7] == "3":
+    print("남자")
+else:
+    print("여자")
 
 
+if int(jumin[2:4]) == now.month:
+    print("%s 월 이벤트 대상자" % jumin[2:4])
+else:
+    print("%s 월 이벤트 대상자 아님" % jumin[2:4])
 
 
+str1 = "안녕하세요"
 
-
+if "하" in str1:
+    print("글자 존재")
+else
+    print("글자 없음")
 
 print("-"*30)
