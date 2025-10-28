@@ -56,6 +56,7 @@ result = 98.23456
 
 ## 이름 : 유관순, 단계 : 3, 성공률 : 98.23%
 print("이름 : {}, 단계 : {}, 성공률 : {:,.2f}%".format(name, rank, result))
+print("이름 : {}, 단계 : {}, 성공률 : {:,.2f}%".format(name, rank, result))
 
 ## f 함수
 print(f"이름 : {name}, 단계 : {rank}, 성공률 : {result:,.2f}%")
