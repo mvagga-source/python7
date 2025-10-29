@@ -43,6 +43,7 @@ sum = 0
 fruits = ['사과','배','복숭아','딸기','포도']
 
 ### enumerate
+
 for i,fruit in enumerate(fruits):
     print("{}.{}".format(i+1,fruit), end="\t")
 print()
