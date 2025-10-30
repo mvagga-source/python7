@@ -1,0 +1,12 @@
+stu_list = [
+    [1,"홍길동",80,80,80,240,80.00],
+    [2,"김길동",90,90,90,270,90.00],
+    [3,"이길동",100,100,100,300,100.00]
+]
+
+#  del stu_list[stu_list.index("1")]
+
+# print(stu_list[0].index("홍길동"))
+
+for key, stu in enumerate(stu_list):
+    if stu in 
