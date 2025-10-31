@@ -8,5 +8,3 @@ stu_list = [
 
 # print(stu_list[0].index("홍길동"))
 
-for key, stu in enumerate(stu_list):
-    if stu in 
