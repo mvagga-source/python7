@@ -19,5 +19,5 @@ print(a_list)
 del(a_list[0])
 print(a_list)
 
-# del(a_tu[0]) # 튜플은 수정불가
+# del(a_tu[0]) # 튜플은 삭제불가
 # print(a_tu)
