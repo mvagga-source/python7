@@ -18,6 +18,8 @@ while True:
     elif choice == 5: #학생성적등수
         stuFunc.stu_rank()
         stuFunc.stu_print()
+    elif choice == 9: #
+        
     elif choice == 0: #프로그램종료
         print("[ 프로그램을 종료합니다. ]")
         print()

@@ -126,3 +126,4 @@ def stu_rank():
         i[7] = c
     print("등수처리가 완료되었습니다!!")
     print()
+    
